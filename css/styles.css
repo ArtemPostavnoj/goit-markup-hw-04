@@ -100,6 +100,10 @@ ul{
     fill: #757575;
     margin-right: 10px;
 }
+.contacts-nav svg{
+    width: 16px;
+    height: 12px;
+}
 .contacts-nav:hover .icon-contacts{
     fill: #2196F3;
 } 
@@ -208,6 +212,7 @@ ul{
     border-radius: 4px;
     border: 0;
     padding: 10px 32px ;
+    letter-spacing: 0.06em;
 }
 .advances{
     display: flex;
@@ -292,7 +297,11 @@ ul{
     max-width: 100%;
     height: auto;
 }
-
+.team-picture{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .team-soc-list{
 display: flex;
 justify-content: center;
@@ -347,6 +356,7 @@ justify-content: center;
 .button-filter:hover{
     background: #2196F3;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .title-project{
     font-weight: 700;
@@ -354,6 +364,19 @@ justify-content: center;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
+}
+.project-link{
+    display: block;
+    text-decoration: none;
+}
+.project-link:hover,
+.project-link:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.project-picture{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .current{
