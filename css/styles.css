@@ -100,10 +100,6 @@ ul{
     fill: #757575;
     margin-right: 10px;
 }
-.contacts-nav svg{
-    width: 16px;
-    height: 12px;
-}
 .contacts-nav:hover .icon-contacts{
     fill: #2196F3;
 } 
